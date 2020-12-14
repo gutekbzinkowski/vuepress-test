@@ -23,6 +23,14 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ],
 
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'Integrations Hub',
+      description: 'Integrations Hub'
+    },
+  },
+
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -34,20 +42,6 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Docs',
-        link: '/docs/'
-      },
-      {
-        text: 'SDK',
-        link: '/config/'
-      }
-    ],
     sidebar: {
       '/guide/': [
         {
@@ -59,7 +53,21 @@ module.exports = {
           ]
         }
       ],
-    }
+    },
+    locales: {
+      '/': {
+        label: 'English',
+        selectText: 'Languages',
+        ariaLabel: 'Select language',
+        editLinkText: 'Edit this page on GitHub',
+        lastUpdated: 'Last Updated',
+        nav: require('./nav/en'),
+        sidebar: {
+          '/guide/': getGuideSidebar(
+          ),
+        }
+      },
+    },
   },
 
   /**
@@ -76,4 +84,43 @@ module.exports = {
       }
     }
   }
+}
+
+function getGuideSidebar () {
+  return [
+    // 'Getting Started',
+    // 'Tools and libraries',
+    // 'Fundamentals',
+    // 'Explaining API objects',
+    // 'Callbacks',
+    // 'Mapping'
+    {
+      title: 'Getting Started',
+      collapsable: false,
+      children: [
+        '',
+        'integration-process',
+        'testing',
+      ]
+    },
+    {
+      title: 'Tools and libraries',
+      collapsable: false,
+      children: [
+        'tools-and-libraries/sdk-php',
+        'tools-and-libraries/sdk-dotnet',
+        'tools-and-libraries/postman-collection',
+      ]
+    },
+    {
+      title: 'Fundamentals',
+      collapsable: false,
+      children: [
+      	'fundamentals/authorization.md',
+        'fundamentals/errors.md',
+        'fundamentals/scopes.md',
+        'fundamentals/rate-limits.md',
+      ]
+    }
+  ]
 }
