@@ -25,7 +25,7 @@ module.exports = [
 				items: [
 					{
 						text: 'Postman Collection',
-						link: '/tools-and-libraries/postman-collection.html'
+						link: '/guide/tools-and-libraries/postman-collection.html'
 					},
 				]
 			},
