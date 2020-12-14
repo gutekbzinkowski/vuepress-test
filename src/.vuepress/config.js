@@ -2,7 +2,9 @@ const { description } = require('../../package')
 const { path } = require('@vuepress/shared-utils')
 
 module.exports = {
+
   base: '/vuepress-test/',
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
