@@ -31,7 +31,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: |
-          cd docs/.vuepress/dist
+          cd src/.vuepress/dist
           git init
           git add -A
           git config --local user.email "action@github.com"
@@ -44,4 +44,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           force: true
-          directory: docs/.vuepress/dist
+          directory: src/.vuepress/dist
