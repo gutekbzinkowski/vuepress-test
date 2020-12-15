@@ -10,9 +10,11 @@ Starting the integration process should consist of 3 easy steps:
 
 In order to start you development you need to obtain set of credentials to sandbox environment. You can request them by filling in the form avaialble here. */add link to contact form/*
 
+```md
 ::: tip
 Remember to use your sandbox API keys for testing and development. This ensures that you don't accidentally modify your live customers or charges.
 :::
+```
 
 The sanbox access will include access to both sample API client but also test clinic and doctors profiles. You can interact with them just by logging in to the service.
 
@@ -26,9 +28,11 @@ Once you are ready with the development, in order to ensure to quality of the in
 
 During the session, the Docplanner specialist will walk you through our testing protocol. You can check how it looks like here */add downloadable file/*.
 
+```md
 ::: warning
 In order to meet the needs of our customers, only integrations with all the methods implemented will be approved.
 :::
+```
 
 ## Blackbox tests
 

@@ -19,11 +19,12 @@ In Docplanner we're using **RESTful API**. You you want to find out more about t
 
 In accordance to RESTful guidelines, we use standard HTTP methods. Each has a special meaning:
 
-| Verb        	| Description   							  | 
+```text
+| Verb        	| Description   														  | 
 | ------------- |:--------------------------------------------| 
-| GET      		| Retrieve resources 						  | 
-| POST      	| Creates resources or execute custom actions |
-| PUT 			| Replace resources     			         |  
-| PATCH 		| Partial update of resources    			|  
-| DELETE 		| Delete resources     						|  
+| GET      			| Retrieve resources 													| 
+| POST      		| Creates resources or execute custom actions |    | PUT 					 | Replace resources      										 |  
+| PATCH 				| Partial update of resources      						|  
+| DELETE 				| Delete resources     												|  
+```
 

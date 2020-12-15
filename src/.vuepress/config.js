@@ -48,11 +48,8 @@ module.exports = {
       '/guide/': [
         {
           title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
+          collapsable: true,
+          children: []
         }
       ],
     },
@@ -102,7 +99,6 @@ function getGuideSidebar () {
       children: [
         '',
         'integration-process',
-        'testing',
       ]
     },
     {

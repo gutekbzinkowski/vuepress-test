@@ -5,7 +5,7 @@ permalink: /hello-world
 
 Hello!
 
-<StaticLink href="/rdocs/">Docs</StaticLink>
+<StaticLink href="/vuepress-test/rdoc.html">Docs</StaticLink>
 <Foo-Bar></Foo-Bar>
 
 ![icon](~@image/hero.png)
