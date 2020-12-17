@@ -1,1 +1,3 @@
-La la la
+---
+layout: HomePage
+---

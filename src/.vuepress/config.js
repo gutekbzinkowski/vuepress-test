@@ -28,7 +28,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'Integrations Hub',
+      title: 'Integrations',
       description: 'Integrations Hub'
     },
   },
@@ -39,20 +39,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo: '/img/docplanner-tech-logo-blue.png',
     repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: true,
-          children: []
-        }
-      ],
-    },
     locales: {
       '/': {
         label: 'English',
@@ -62,8 +54,7 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: require('./nav/en'),
         sidebar: {
-          '/guide/': getGuideSidebar(
-          ),
+          '/guide/': getGuideSidebar(),
         }
       },
     },
@@ -87,12 +78,6 @@ module.exports = {
 
 function getGuideSidebar () {
   return [
-    // 'Getting Started',
-    // 'Tools and libraries',
-    // 'Fundamentals',
-    // 'Explaining API objects',
-    // 'Callbacks',
-    // 'Mapping'
     {
       title: 'Getting Started',
       collapsable: false,

@@ -1,15 +1,3 @@
 <template>
-  <p class="demo">
-    {{ msg }}
-  </p>
+  <Content class="theme-default-content custom" />
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      msg: 'Home Page'
-    }
-  }
-}
-</script>
