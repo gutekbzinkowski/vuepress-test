@@ -129,8 +129,8 @@ function getGuideSidebar () {
       title: 'Mappings',
       collapsable: false,
       children: [
-        'mapping/mapping-interface.md',
-        'mapping/vendor-mapping.md',
+        'mappings/mapping-interface.md',
+        'mappings/vendor-mapping.md',
       ]
     },
   ]
