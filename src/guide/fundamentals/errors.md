@@ -1,7 +1,8 @@
 # Errors
 
-<img :src="$withBase('/img/security.png')" style="width:40%; float: right; margin-left: 50px;"> In Docplanner we're using standard HTTP response codes to indicate the success or failure of an API request. In general: Codes in the `2xx` range indicate success. Codes in the `4xx` range indicate an error which has failed given the information provided (e.g., resource is no longer available, request doesn't contain all the required fields, etc.). Codes in the `5xx` and codes in the `5xx` range indicate a server-side error. 
+<img :src="$withBase('/security.png')" text-align="left" size="40%">
 
+In Docplanner we're using standard HTTP response codes to indicate the success or failure of an API request. In general: Codes in the `2xx` range indicate success. Codes in the `4xx` range indicate an error which has failed given the information provided (e.g., resource is no longer available, request doesn't contain all the required fields, etc.). Codes in the `5xx` and codes in the `5xx` range indicate a server-side error. 
 
 ::: tip Monitoring Docplanner Status
 
@@ -9,12 +10,9 @@ You can monitor the status of our services by subscribing to our status page, av
 
 :::
 
-
 ### HTTP Status Codes
 
-
 Below, find the list of all the conventional HTTP status codes with line of coment:
-
 
 | Status Code                           | Description                                                  |
 | ------------------------------------- | ------------------------------------------------------------ |
@@ -30,7 +28,6 @@ Below, find the list of all the conventional HTTP status codes with line of come
 | **429** - Too many requests           | Rate limit has been exceeded. Find out more here */link/*    |
 | **500, 502, 503, 504** - Server error | Docplanner server is not operative at the moment <br />(should happen very rarely) |
 
-
 Every response has specific Content-Type header:
 
 ```json
@@ -38,7 +35,6 @@ Content-Type: application/vnd.error+docplanner+json
 ```
 
 ### Custom error messages
-
 
 In the real-time booking flow we allow making the booking functionality dependent of the response to a synchronous call during the process (read more here /link/).  
 
@@ -49,3 +45,4 @@ In our interface the system might display custom error message informing patient
     "error_code": 1
 }
 ```
+

@@ -1,4 +1,4 @@
-# Extensions
+# Scopes
 
 Many objects allow you to request additional information as an expanded response.  Rather than requiring you to hit the API repeatedly, we allow related data to be returned and loaded alongside the original resource on demand, which improves performance.
 

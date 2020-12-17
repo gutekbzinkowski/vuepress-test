@@ -12,7 +12,7 @@ Be sure to keep your API keys secure! Do not share your secret API keys or token
 
 
 
-## Obtaining the token
+### Obtaining the token
 
 In order to obtain **bearer token** you need to call our endpoint (list of local domains can be found here) */add quick link to proper guide section/*:
 
