@@ -39,7 +39,7 @@ Authorization: Bearer {access_token}
 
 Calls made over plain HTTP will be considered insecure and will be redirected to HTTPS path with redirect status code (3XX) in response.
 
-::: details **Do I need to use different token for each request?**
+::: details Do I need to use different token for each request?
 
 Absolutely not, tokens are valid for 24 hours since creation. You should use the same token for all the operations in that timespan.
 
