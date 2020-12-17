@@ -111,10 +111,10 @@ function getGuideSidebar () {
       children: [
         'api-objects/context-map,md',
         'api-objects/resources.md',
-        'api-objects/managing-calendar,md',
-        'api-objects/checking-schedule-coverage,md',
-        'api-objects/online-features,md',
-        'api-objects/patient-presence,md',
+        'api-objects/managing-calendar.md',
+        'api-objects/checking-schedule-coverage.md',
+        'api-objects/online-features.md',
+        'api-objects/patient-presence.md',
       ]
     },
   ]
