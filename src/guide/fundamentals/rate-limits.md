@@ -2,8 +2,13 @@
 
 In order to prevent DOS/DDOS attacks and abuses of the API, we use **rate limitting**. Currently the rate limits are set on 2 levels:
 
-- Limitting the requests quota per hour
-- Limiting WRITE (PUT, POST, DELETE) requests per minute
+
+- Limitting the requests quota **per hour**
+
+
+- Limiting WRITE (PUT, POST, DELETE) requests **per minute**
+  
+  
 
 In case of justified needs, the limits can be increased as they are set on client level. In order to disucss it, contact us at integrations@docplanner.com
 
@@ -14,8 +19,6 @@ If your limits reaches zero, subsequent requests will receive the `429 Too Many 
 No rate limiter specific headers in API responses means that the rate limitter has been disabled
 
 :::
-
-## Rate Limits Parameters
 
 We inform you of the state of rate limiter using HTTP headers. 
 
