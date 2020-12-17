@@ -101,7 +101,7 @@ function getGuideSidebar () {
       children: [
       	'fundamentals/authorization.md',
         'fundamentals/errors.md',
-        'fundamentals/scopes.md',
+        'fundamentals/extensions.md',
         'fundamentals/rate-limits.md',
       ]
     }
