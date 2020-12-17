@@ -14,11 +14,13 @@ In case of justified needs, the limits can be increased as they are set on clien
 
 If your limits reaches zero, subsequent requests will receive the `429 Too Many Requests` response code until the request reset time has been reached.
 
+
 :::tip What if I don't get the parameters in headers?
 
 No rate limiter specific headers in API responses means that the rate limitter has been disabled
 
 :::
+
 
 We inform you of the state of rate limiter using HTTP headers. 
 
