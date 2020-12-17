@@ -2,13 +2,13 @@
 
 In Docplanner we're using standard HTTP response codes to indicate the success or failure of an API request. In general: Codes in the `2xx` range indicate success. Codes in the `4xx` range indicate an error which has failed given the information provided (e.g., resource is no longer available, request doesn't contain all the required fields, etc.). Codes in the `5xx` and codes in the `5xx` range indicate a server-side error. 
 
-::: Tip Monitoring Docplanner Status 
+::: tip Monitoring Docplanner Status 
 
 You can monitor the status of our services by subscribing to our status page, available [here](https://status.docplanner.com/)
 
 :::
 
-##### HTTP Status Codes
+## HTTP Status Codes
 
 Below, find the list of all the conventional HTTP status codes with line of coment:
 
@@ -32,7 +32,7 @@ Every response has specific Content-Type header:
 Content-Type: application/vnd.error+docplanner+json
 ```
 
-##### Custom error messages
+## Custom error messages
 
 In the real-time booking flow we allow making the booking functionality dependent of the response to a synchronous call during the process (read more here /link/).  
 
