@@ -99,38 +99,38 @@ function getGuideSidebar () {
       title: 'Fundamentals',
       collapsable: false,
       children: [
-      	'fundamentals/authorization.md',
-        'fundamentals/errors.md',
-        'fundamentals/extensions.md',
-        'fundamentals/rate-limits.md',
+      	'fundamentals/authorization',
+        'fundamentals/errors',
+        'fundamentals/extensions',
+        'fundamentals/rate-limits',
       ]
     },
     {
       title: 'API Objects',
       collapsable: false,
       children: [
-        'api-objects/context-map.md',
-        'api-objects/resources.md',
-        'api-objects/managing-calendar.md',
-        'api-objects/checking-schedule-coverage.md',
-        'api-objects/online-features.md',
-        'api-objects/patient-presence.md',
+        'api-objects/context-map',
+        'api-objects/resources',
+        'api-objects/managing-calendars',
+        'api-objects/checking-schedule-coverage',
+        'api-objects/online-features',
+        'api-objects/patient-presence',
       ]
     },
     {
       title: 'Callbacks',
       collapsable: false,
       children: [
-        'callbacks/push-vs-pull.md',
-        'callbacks/real-time-requests.md',
+        'callbacks/push-vs-pull',
+        'callbacks/real-time-requests',
       ]
     },
     {
       title: 'Mappings',
       collapsable: false,
       children: [
-        'mappings/mapping-interface.md',
-        'mappings/vendor-mapping.md',
+        'mappings/mapping-interface',
+        'mappings/vendor-mapping',
       ]
     },
   ]
